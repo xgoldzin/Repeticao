@@ -14,5 +14,21 @@
         <input type="number" name="nun" id="nun" placeholder="Digite o número que deseja saber a tabuada:">
         <button onclick="tab()">Verificar</button>
         <div id="respostaTabu"></div>
+
+        <h2>SOMA DE PRODUTOS</h2>
+        <input type="number" name="prod" id="prod" placeholder="Digite o valor do produto:">
+        <button onclick="calculaProd()">Calcular</button>
+        <div id="respostaProdutos"></div>
+
+        <h2>OPERAÇÕES BANCÁRIAS</h2>
+        <!-- <input type="number" name="sld" id="sld" placeholder="Digite o saldo:"> -->
+        <input type="number" name="vlr" id="vlr" placeholder="Digite o valor da operação:">
+        <label for="op">Escolha uma Operação:</label>
+        <select name="op" id="op">
+            <option value="debito">Débito</option>
+            <option value="credito">Credito</option>
+        </select>
+        <button onclick="calculaProd()">Calcular</button>
+        <div id="respostaBanco"></div>
     </body>
 </main>
